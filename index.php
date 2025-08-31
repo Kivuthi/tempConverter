@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h2>Enter your Temperature</h2>
+
+<form action="convert.php" method="POST">
+    <label>Temperature:</label><br>
+    <input type="text" name="temperature" required><br><br>
+
+    <button type="submit">Convert</button>
+</form>
+</body>
+</html>
